@@ -1,0 +1,4 @@
+
+set(CN_PROJECT_NAME "codered")
+set(CN_CURRENCY_DISPLAY_NAME "CodeRed")
+set(CN_CURRENCY_TICKER "CR")
