@@ -18,10 +18,9 @@
 * <i>Alternatively, it may be possible to install them using a package manager</i>
 * Easy install dependencies: `sudo apt-get update && sudo apt-get install build-essential libboost-all-dev libboost-all-dev cmake qt5-default git`
 * Clone Repository: `git clone https://github.com/codered-project/codered-gui.git && cd codered-gui`
-* `make`
+* `mkdir build && cd build && cmake .. && make`
 
 * <b>Advanced options:</b>
-* Set threads, <b>x</b> is the number of threads your system has: `make -j x`
-* Debug build: `make build-debug`
-* Test suite: `make test-release` to run tests in addition to building. Running `make test-debug` will do the same to the debug version.
+* Set threads, <b>x</b> is the number of threads your system has: `mkdir build && cd build && cmake .. && make -j x`
+
 
